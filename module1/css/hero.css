@@ -1,0 +1,34 @@
+.hero {
+  background: url('../img/bg-hero.png') no-repeat;
+  background-position: bottom right 10rem;
+}
+
+.hero__inner {
+  padding: 14.3rem 0 10rem;
+}
+
+.hero__title {
+  max-width: 64.5rem;
+  margin-bottom: 5rem;
+  font-size: 8rem;
+  line-height: 8.8rem;
+  font-weight: 700;
+  color: var(--color-prime);
+}
+
+.hero__text {
+  max-width: 38rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}
+
+.hero__link {
+  padding: 1.5rem 3.7rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: #9C69E2;
+  border-radius: 5rem;
+}

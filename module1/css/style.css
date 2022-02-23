@@ -1,25 +1,27 @@
-// WORK PACK
-@import 'work_pack/reset_lite';
-@import 'work_pack/media_queries';
-@import 'work_pack/vars_mixins';
-@import 'work_pack/fonts';
-@import 'work_pack/colors';
-// BLOCKS
-@import 'blocks/global';
-@import 'blocks/header';
-@import 'blocks/hero';
-@import 'blocks/about';
-@import 'blocks/skills';
-@import 'blocks/portfolio';
-@import 'blocks/certificates';
-@import 'blocks/footer';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
-@import 'blocks/error';
+:root {
+  --color-prime: #212353;
+  --color-scnd: #4B5D68;
+}
 
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #fff;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}
 
-@import 'blocks/media';
+/* .hero, */
+.about,
+.features,
+.testimonials,
+.footer {
+  /* display: none; */
+}
 
-// vendor libs
-// @import 'vendor/slick';
-// если не нужно слик можно отключить
-
+.container {
+  max-width: 114rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}

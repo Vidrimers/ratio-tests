@@ -1,0 +1,39 @@
+.header__inner {
+  padding-top: 6.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.logo {
+  display: inline-block;
+  max-width: 4.9rem;
+}
+
+.menu__list {
+  display: flex;
+  margin-left: 12rem;
+}
+
+.menu__list--item+.menu__list--item {
+  margin-left: 4rem;
+}
+
+.menu__list--link {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  color: var(--color-scnd);
+  transition: all .3s;
+}
+
+.menu__list--link:hover {
+  color: var(--color-prime);
+}
+
+.menu__list--link:active {
+  color: var(--color-prime);
+  /* font-weight: 700; */
+  text-shadow: 0 0 .05rem #000;
+}

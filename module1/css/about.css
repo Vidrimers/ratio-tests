@@ -1,0 +1,32 @@
+.about {
+  padding: 10rem 0 15rem;
+}
+
+.about__inner {
+  display: flex;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 5rem;
+}
+
+.about__img {
+  margin-right: 6.5rem;
+  object-fit: contain;
+}
+
+.about__items {
+  max-width: 47.5rem;
+  padding: 12.5rem 9.2rem 12.5rem 0;
+}
+
+.about__title {
+  margin-bottom: 4rem;
+  color: var(--color-prime);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+
+.about__text {
+  color: var(--color-scnd);
+  font-weight: 400;
+}

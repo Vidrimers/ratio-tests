@@ -1,0 +1,95 @@
+.features{
+  /* display: none; */
+}
+
+.features__inner{
+  padding-left: 9rem;
+}
+
+.features__title {
+  text-align: center;
+  margin-bottom: 4rem;
+  color: var(--color-prime);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+
+.features__text {
+  max-width: 58.4rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  color: var(--color-scnd);
+  font-weight: 400;
+}
+
+.features__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem 14.7rem;
+  justify-items: end;
+}
+
+.features__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding: 5rem 5rem 3.3rem 17.2rem;
+min-height: 35.8rem;
+}
+
+.features__item--img {
+  display: block;
+  position: absolute;
+  max-width: 24.1rem;
+  left: 0;
+  transform: translatex(-50%);
+}
+
+.features__item--info {
+  max-width: 22rem;
+}
+
+.features__item--title {
+  max-width: 20rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  font-weight: 500;
+  color: var(--color-prime);
+}
+
+.features__item--text {
+  margin-bottom: 2rem;
+  max-width: 22rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--color-scnd);
+}
+
+.features__item--link {
+  position: relative;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  color: var(--color-prime);
+}
+
+.features__item--link::after {
+  content: url('../img/features/arrow-right.png');
+  background-size: 2rem 1.4rem;
+  position: absolute;
+  padding-left: 2rem;
+  top: 0;
+  bottom: 0;
+}
+
+.features__bg {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  /* Если нужно менять картинку из админки, то лучше не черех bg */
+}
