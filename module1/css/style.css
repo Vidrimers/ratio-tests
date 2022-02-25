@@ -12,14 +12,6 @@ body {
   line-height: 2.9rem;
 }
 
-/* .hero, */
-.about,
-.features,
-.testimonials,
-.footer {
-  /* display: none; */
-}
-
 .container {
   max-width: 114rem;
   padding: 0 1rem;
