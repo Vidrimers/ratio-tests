@@ -15,6 +15,7 @@
   <link type="image/png" sizes="32x32" rel="icon" href="img/favicon/favicon-32x32.png">
   <link type="image/png" sizes="96x96" rel="icon" href="img/favicon/favicon-96x96.png">
   <title>Warehouse - Save your data storage here.</title>
+<!-- это лучше сделать через index.css в него все подключить, а тут уже подключить index.css  -->
   <link rel="stylesheet" href="css/reset_lite.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
@@ -56,12 +57,12 @@
     </div>
   </header>
 
-
+<!-- section надо обернуть в main  -->
 
   <section class="hero">
     <div class="container">
       <div class="hero__inner">
-
+<!-- много лишних отступов -->
 
         <div class="hero__items">
 
@@ -112,10 +113,12 @@
         <div class="features__items">
 
           <div class="features__item">
+<!--     alt надо заполнять       -->
             <img class="features__bg" src="img/features/feauters-bg1.png" alt="">
             <img class="features__item--img" src="img/features/img-item1.png" alt="">
             <div class="features__item--info">
               <h3 class="features__item--title">Search Data</h3>
+<!--     закрывающий тэг </p> надо переносить на новую строку         -->
               <p class="features__item--text">Don’t worry if your data is very large, the Data Warehoue provides a
                 search engine, which is useful for making it easier to find data effectively saving time.</p>
             </div>
@@ -215,7 +218,7 @@
         </div>
         <div class="testimonials__nav">
           <ul class="testimonials__dots">
-
+<!--    в данной ситуации для кнопок надо предусмотреть span с текстом который скрыть visually-hidden, если стили не подгрузятся, то пользователю не будет понятен функционал    -->
             <li class="testimonials__dot testimonials__dot--active">
               <button></button>
             </li>
@@ -261,12 +264,13 @@
         <div class="footer__info">
           <div class="footer__logo">
             <a class="logo footer__logo-item" href="index.html"><img src="img/logo.png" alt="Логотип"></a>
-
+<!-- тут или заголовок или спан, на абзац не тянет -->
             <p class="logo__title">
               DataWarehouse
             </p>
           </div>
           <p class="footer__address">
+            <!--    применение <br> плохая практика, перенос стилями при помощи max-width      -->
             Warehouse Society, 234 <br>
             Bahagia Ave Street
             PRBW 29281
