@@ -188,7 +188,7 @@
     max-width: none;
     width: 100%;
   }
-
+  /* тут нет отступа  .footer__social-items{ -  .footer__social-items { стиль кода должен быть единый */
   .footer__social-items{
     justify-content: space-evenly;
   }

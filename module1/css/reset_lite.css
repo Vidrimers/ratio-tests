@@ -1,3 +1,4 @@
+/* есть готовый normalize - лучше подключать его */
 /*Обнуление*/
 * {
   padding: 0;
@@ -45,6 +46,7 @@ body {
   min-width: 320px;
   font-size: 100%;
   line-height: 1;
+  /* этот font-size перетрет верхний */
   font-size: 10px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
