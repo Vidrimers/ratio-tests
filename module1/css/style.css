@@ -8,6 +8,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   background: #fff;
+  /* rem это хорошо, но в больших проектах это не практично */
   font-size: 1.8rem;
   line-height: 2.9rem;
 }
